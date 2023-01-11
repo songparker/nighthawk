@@ -1,4 +1,4 @@
-# Nighthawk
+# Nighthawk_Bank System
 This repository is for our Application Development Project
 
 

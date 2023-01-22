@@ -1,0 +1,78 @@
+﻿<Window x:Class="BankManageSystem.Register"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BankManageSystem"
+        mc:Ignorable="d"
+        Title="Register" Height="450" Width="800">
+    <Grid Margin="10,0,10,6">
+        <Button x:Name="registe" Content="Registe" HorizontalAlignment="Left" Margin="263,344,0,0" VerticalAlignment="Top" Height="25" Width="101" FontSize="16" Click="registe_Click">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Label Content="              First Name" HorizontalAlignment="Left" Margin="214,48,0,0" VerticalAlignment="Top" FontSize="16" Width="150"/>
+        <Label Content="&#x9;Last Name" HorizontalAlignment="Left" Margin="214,84,0,0" VerticalAlignment="Top" FontSize="16" Width="150"/>
+        <Label Content="          Date Of Birth" HorizontalAlignment="Left" Margin="214,120,0,0" VerticalAlignment="Top" FontSize="16" Width="150"/>
+        <Label Content="&#x9;    Country" HorizontalAlignment="Left" Margin="214,156,0,0" VerticalAlignment="Top" FontSize="16" Width="150"/>
+        <Label Content="       Phone Number" HorizontalAlignment="Left" Margin="214,191,0,0" VerticalAlignment="Top" FontSize="16" Width="150"/>
+        <Label Content="                       Email" HorizontalAlignment="Left" Margin="214,233,0,0" VerticalAlignment="Top" FontSize="16" Width="150"/>
+        <Label Content="                Password" HorizontalAlignment="Left" Margin="214,268,0,0" VerticalAlignment="Top" FontSize="16" Width="150"/>
+        <TextBox x:Name="email" HorizontalAlignment="Left" Margin="390,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="16">
+            <TextBox.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </TextBox.Resources>
+        </TextBox>
+        <TextBox x:Name="phonenumber" HorizontalAlignment="Left" Margin="390,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="16">
+            <TextBox.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </TextBox.Resources>
+        </TextBox>
+        <TextBox x:Name="country" HorizontalAlignment="Left" Margin="390,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="16">
+            <TextBox.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </TextBox.Resources>
+        </TextBox>
+        <TextBox x:Name="lname" HorizontalAlignment="Left" Margin="390,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="16">
+            <TextBox.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </TextBox.Resources>
+        </TextBox>
+        <TextBox x:Name="fname" HorizontalAlignment="Left" Margin="390,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="16">
+            <TextBox.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </TextBox.Resources>
+        </TextBox>
+        <Button x:Name="cancel" Content="Cancel" HorizontalAlignment="Left" Margin="455,344,0,0" VerticalAlignment="Top" Height="25" Width="101" FontSize="16" Click="cancel_Click">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <DatePicker x:Name="dobPicker" HorizontalAlignment="Left" Margin="390,122,0,0" VerticalAlignment="Top" FontSize="16" Width="166" IsDropDownOpen="True" SelectedDateFormat="Short" IsTodayHighlighted="True" DisplayDate="2023-01-19">
+            <DatePicker.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </DatePicker.Resources>
+        </DatePicker>
+        <PasswordBox x:Name="pwd" HorizontalAlignment="Left" Margin="390,274,0,0" VerticalAlignment="Top" Width="166" Height="25" BorderBrush="LightBlue"  >
+            
+        </PasswordBox>
+
+    </Grid>
+</Window>

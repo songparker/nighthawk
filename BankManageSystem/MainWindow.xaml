@@ -1,0 +1,70 @@
+﻿<Window x:Class="BankManageSystem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BankManageSystem"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid>
+
+        <Image HorizontalAlignment="Left" Height="177" Margin="119,27,0,0" VerticalAlignment="Top" Width="312" Source="/20170105-02.jpg"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="84,217,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="56,272,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="email" HorizontalAlignment="Left" Margin="177,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="254" FontSize="16">
+            <TextBox.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </TextBox.Resources>
+        </TextBox>
+        <Button x:Name="login" Content="Log In" HorizontalAlignment="Left" Margin="216,324,0,0" VerticalAlignment="Top" FontSize="16" Width="177" Height="50" UseLayoutRounding="False" Background="{x:Null}" Click="login_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button x:Name="register" Content="Registration" HorizontalAlignment="Left" Margin="574,27,0,0" VerticalAlignment="Top" FontSize="16" Width="177" Height="50" UseLayoutRounding="False" Background="{x:Null}" Click="register_Click">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button x:Name="exchange" Content="ExChange" HorizontalAlignment="Left" Margin="574,102,0,0" VerticalAlignment="Top" FontSize="16" Width="177" Height="50" UseLayoutRounding="False" Background="{x:Null}">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button x:Name="contact" Content="Contact Us" HorizontalAlignment="Left" Margin="574,182,0,0" VerticalAlignment="Top" FontSize="16" Width="177" Height="50" UseLayoutRounding="False" Background="{x:Null}">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button x:Name="about" Content="About Us" HorizontalAlignment="Left" Margin="574,254,0,0" VerticalAlignment="Top" FontSize="16" Width="177" Height="50" UseLayoutRounding="False" Background="{x:Null}">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button x:Name="exit" Content="Exit" HorizontalAlignment="Left" Margin="574,324,0,0" VerticalAlignment="Top" FontSize="16" Width="177" Height="50" UseLayoutRounding="False" Background="{x:Null}" Click="exit_Click">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <PasswordBox x:Name="txtpwd" HorizontalAlignment="Left" Margin="177,279,0,0" VerticalAlignment="Top" Width="254" Height="25" FontSize="16" >
+           
+        </PasswordBox>
+
+
+    </Grid>
+</Window>

@@ -36,11 +36,11 @@ namespace BankManageSystem
             {
                // DatePicker dp = new DatePicker();
                 //Open the db connection
-                string qury = "insert into customerTable values(@FName, @LName, @Dob, @Country, @PhoneNumber, @Email, @Password)";
+                string qury = "insert into customerTable values(CAST((RAND()*(9832789-3)+(RAND()*(89732-298)))*100 AS BIGINT),@FName, @LName, @Dob, @Country, @PhoneNumber, @Email, @Password)";
                 SqlCommand cmd = new SqlCommand(qury, con);
                 cmd.Parameters.AddWithValue("@FName", fname.Text);//We need to call the textbox by name to grab the text in it
                 cmd.Parameters.AddWithValue("@LName", lname.Text);
-                cmd.Parameters.AddWithValue("@Dob", dobPicker.SelectedDate.Value.Date.Day);
+                cmd.Parameters.AddWithValue("@Dob", dobPicker.ToString());
                 cmd.Parameters.AddWithValue("@Country", country.Text);
                 cmd.Parameters.AddWithValue("@PhoneNumber", phonenumber.Text);
                 cmd.Parameters.AddWithValue("@Email", email.Text);

@@ -63,7 +63,7 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <DatePicker x:Name="dobPicker" HorizontalAlignment="Left" Margin="390,122,0,0" VerticalAlignment="Top" FontSize="16" Width="166" IsDropDownOpen="True" SelectedDateFormat="Short" IsTodayHighlighted="True" DisplayDate="2023-01-19">
+        <DatePicker x:Name="dobPicker" HorizontalAlignment="Left" Margin="390,123,0,0" VerticalAlignment="Top" FontSize="16" Width="166" IsDropDownOpen="True" SelectedDateFormat="Short" IsTodayHighlighted="True" Height="25" RenderTransformOrigin="-3.774,0.762">
             <DatePicker.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="5"/>
@@ -71,7 +71,7 @@
             </DatePicker.Resources>
         </DatePicker>
         <PasswordBox x:Name="pwd" HorizontalAlignment="Left" Margin="390,274,0,0" VerticalAlignment="Top" Width="166" Height="25" BorderBrush="LightBlue"  >
-            
+
         </PasswordBox>
 
     </Grid>

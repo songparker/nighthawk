@@ -15,7 +15,7 @@
         <TextBox x:Name="email" HorizontalAlignment="Left" Margin="177,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="254" FontSize="16">
             <TextBox.Resources>
                 <Style TargetType="{x:Type Border}">
-                    <Setter Property="CornerRadius" Value="5"/>
+                    <Setter Property="CornerRadius" Value="3"/>
                 </Style>
             </TextBox.Resources>
         </TextBox>

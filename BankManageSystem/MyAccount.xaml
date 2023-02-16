@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MyAccount" Height="450" Width="800">
     <Grid>
-        <Button x:Name="deposit" Content="Deposit" HorizontalAlignment="Left" Margin="539,44,0,0" VerticalAlignment="Top" FontSize="16" Height="41" Width="115">
+        <Button x:Name="deposit" Content="Deposit" HorizontalAlignment="Left" Margin="539,44,0,0" VerticalAlignment="Top" FontSize="16" Height="41" Width="115" Click="deposit_Click">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="5"/>
@@ -31,7 +31,7 @@
         <Label x:Name="useremail" Content="email" HorizontalAlignment="Left" Margin="40,27,0,0" VerticalAlignment="Top" FontSize="16" Width="171"/>
         <Label x:Name="username" Content="username" HorizontalAlignment="Left" Margin="84,64,0,0" VerticalAlignment="Top" FontSize="16" Width="171" FontWeight="Bold"/>
         <Label Content="Date Of Birth: " HorizontalAlignment="Left" Margin="84,104,0,0" VerticalAlignment="Top" FontSize="16" Width="127"/>
-        <Label x:Name="userage" Content="DOB" HorizontalAlignment="Left" Margin="245,104,0,0" VerticalAlignment="Top" FontSize="16" Width="192" FontWeight="Bold"/>
+        <Label x:Name="userage" Content="DOB" ContentStringFormat="yyy-MM-dd" HorizontalAlignment="Left" Margin="245,104,0,0" VerticalAlignment="Top" FontSize="16" Width="192" FontWeight="Bold"/>
         <Label Content="Country:" HorizontalAlignment="Left" Margin="84,142,0,0" VerticalAlignment="Top" FontSize="16" Width="86"/>
         <Label Content="Phone Number:" HorizontalAlignment="Left" Margin="84,174,0,0" VerticalAlignment="Top" FontSize="16" Width="127"/>
         <Label Content="Card Number:" HorizontalAlignment="Left" Margin="84,210,0,0" VerticalAlignment="Top" FontSize="16" Width="127"/>

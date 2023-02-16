@@ -24,6 +24,9 @@ namespace BankManageSystem
             InitializeComponent();
         }
 
-       
+        private void deposit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

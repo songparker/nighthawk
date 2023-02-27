@@ -25,8 +25,8 @@ Features of the selected project: <br />
 End users: Bank Customers, Bank Employees<br />
 Integration of the End users with the project (user stories):<br />
 By running this application, in the home page, user will be able to log in by  entering email or username and password. There will be also some functions else like registration for new users, clicking this button will lead user to a register page. ExChange Rate button will take user to a current exchange rate calculating page. There will be a contact us button to show user Bank contact information and an About us button to show user information about this bank. And also an Exit button to terminate the application.<br />
-While user logging in, system will determine the wether this is a customer or a bank employee since there will be different authorities for different users. As a customer, after log in there will be a home page of this particular user. On this page will be showing user personal information, account number, current balance etc. There will be some methods as well: Deposit button for deposit an amount, Withdrawal button to withdrawal an amount, Transfer button to transfer money to another account or another customer.<br />
-And as a bank employee, he/she would be able to login the system, check and manage customer data like account information and transactions, such as creating new account for the customer, account balance checking for the account holder, etc.<br />
+As a customer, after log in there will be a home page of this particular user. On this page will be showing user personal information, account number, current balance etc. There will be some methods as well: Deposit button for deposit an amount, Withdrawal button to withdrawal an amount, Transfer button to transfer money to another account or another customer.<br />
+And as a bank employee, he/she would be able to get to the API system, check user information or transaction, updating currency data, etc.<br />
 Areas covered with this project: <br />
 Register and login system, online banking system, data manipulation, data integration.<br />
 
